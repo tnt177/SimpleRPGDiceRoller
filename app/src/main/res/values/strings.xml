@@ -1,3 +1,15 @@
 <resources>
     <string name="app_name">Simple RPG Dice Roller</string>
+    <string name="number_of_dice">Number of Dice:</string>
+    <string name="modifier">Modifier +/-: </string>
+    <string name="missing_die">You need to have at least one die to roll, add dice, and try again!"</string>
+    <string name="down_selector">down selector</string>
+    <string name="up_selector">up selector</string>
+    <string name="d4">d4</string>
+    <string name="d12">d12</string>
+    <string name="d00">d00</string>
+    <string name="d20">d20</string>
+    <string name="d10">d10</string>
+    <string name="d8">d8</string>
+    <string name="d6">d6</string>
 </resources>
