@@ -12,4 +12,12 @@
     <string name="d10">d10</string>
     <string name="d8">d8</string>
     <string name="d6">d6</string>
+    <string name="d4_name">D4</string>
+    <string name="d6_name">d6</string>
+    <string name="d8_name">D8</string>
+    <string name="d10_name">D10</string>
+    <string name="d12_name">D12</string>
+    <string name="d20_name">D20</string>
+    <string name="d100_name">D100</string>
+    <string name="tap_the_dice_to_roll_n_good_luck">Tap the Dice to Roll \n Good Luck!</string>
 </resources>

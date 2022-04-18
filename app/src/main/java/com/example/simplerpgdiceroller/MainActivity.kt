@@ -3,6 +3,8 @@ package com.example.simplerpgdiceroller
 import android.os.Bundle
 import android.text.Html
 import android.util.Log
+import android.view.Menu
+import android.view.MenuItem
 import android.widget.Toast
 import androidx.appcompat.app.AlertDialog
 import androidx.appcompat.app.AppCompatActivity
@@ -274,18 +276,39 @@ class MainActivity : AppCompatActivity() {
         // d00 roll
 
     }
+    override fun onCreateOptionsMenu(menu: Menu?): Boolean {
+        val inflater = menuInflater
+        inflater.inflate(R.menu.main_menu, menu)
+        return super.onCreateOptionsMenu(menu)
+    }
+
+    override fun onOptionsItemSelected(item: MenuItem): Boolean {
+        if (item.itemId == R.id.reset) {
+            countDice = 1
+            countMod = 0
+
+            binding.diceNumTextView.setText(getString(R.string.number_of_dice) + " ${countDice}")
+            binding.modTextView.setText(getString(R.string.modifier) + " ${countMod}")
+            return true
+        } else if (item.itemId == R.id.preferences) {
+            return true
+        } else if (item.itemId == R.id.about) {
+            return true
+        }
+        return super.onOptionsItemSelected(item)
+    }
+
 }
 
 /*
 Developer Notes (4/16/22):
 * Need to add the code for d00, either 1d00 random # 1..100 or 2d10 random # 1..10
-* Need to fix the imageButton, i.e. image not scaling correctly
+* If time permitting, format the imageButton a bit better
 * Need to add decorations or theme, i.e. maybe dicey or dungeony ???
 * Need to create App Icon
-* Possibly add basic instructions, i.e. tap to roll, etc.
-* Possibly add a menu for SharedPreferences, i.e. change background color, etc
-* Possibly add a reset button, i.e. to clear the selected numbers
-* Possibly add an About app
+* Possibly add more basic instructions???
+* Finish menu for SharedPreferences, i.e. change background color, etc
+* Add an About app screen
 * If time permitting, see about cleaning up the code, i.e. moving stuff to functions
 * Others pending...
 
