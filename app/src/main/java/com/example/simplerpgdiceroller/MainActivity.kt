@@ -355,7 +355,7 @@ class MainActivity : AppCompatActivity() {
         if (background.equals("dragon")) {
             binding.ConstraintLayout.setBackgroundResource(R.drawable.dragon)
         } else if (background.equals("antique")) {
-            binding.ConstraintLayout.setBackgroundColor(Color.parseColor("#FFE4C4"))
+            binding.ConstraintLayout.setBackgroundColor(Color.parseColor("#FAEBD7"))
         } else if (background.equals("forrest")) {
             binding.ConstraintLayout.setBackgroundColor(Color.parseColor("#6B8E23"))
         } else if (background.equals("gold")) {
