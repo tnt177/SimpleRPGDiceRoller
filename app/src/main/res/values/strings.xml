@@ -20,4 +20,25 @@
     <string name="d20_name">D20</string>
     <string name="d100_name">D100</string>
     <string name="tap_the_dice_to_roll_n_good_luck">Tap the Dice to Roll \n Good Luck!</string>
+
+    <!--preferences strings -->
+    <string name="preferences_storage_name">app_preferences</string>
+
+    <string name="background_color_key">background color</string>
+
+    <string name="background_color_dragon">dragon</string>
+    <string name="background_color_antique">antique</string>
+    <string name="background_color_gold">gold</string>
+    <string name="background_color_silver">silver</string>
+    <string name="background_color_lavender">lavender</string>
+    <string name="background_color_forrest">forrest</string>
+    <string name="background_color_sandy">sandy</string>
+    <string name="background_color">Background \nColor</string>
+    <string name="default_image_n_dragon_silloute">Default Image \n(Dragon Silloute)</string>
+    <string name="antique">Antique</string>
+    <string name="forrest">Forrest</string>
+    <string name="gold">Gold</string>
+    <string name="lavender">Lavender</string>
+    <string name="sandy">Sandy</string>
+    <string name="silver">Silver</string>
 </resources>

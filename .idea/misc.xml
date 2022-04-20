@@ -3,7 +3,9 @@
   <component name="DesignSurface">
     <option name="filePathToZoomLevelMap">
       <map>
+        <entry key="..\:/Users/TTORR/Desktop/CSCI 4020/SimpleRPGDiceRoller/app/src/main/res/layout-v31/activity_main.xml" value="0.3265625" />
         <entry key="..\:/Users/TTORR/Desktop/CSCI 4020/SimpleRPGDiceRoller/app/src/main/res/layout/activity_main.xml" value="0.3416666666666667" />
+        <entry key="..\:/Users/TTORR/Desktop/CSCI 4020/SimpleRPGDiceRoller/app/src/main/res/layout/activity_preferences.xml" value="0.3265625" />
         <entry key="..\:/Users/TTORR/Desktop/CSCI 4020/SimpleRPGDiceRoller/app/src/main/res/layout/dialog_view.xml" value="0.3359375" />
         <entry key="..\:/Users/TTORR/Desktop/CSCI 4020/SimpleRPGDiceRoller/app/src/main/res/layout/roll_layout_dialog.xml" value="0.21875" />
         <entry key="..\:/Users/TTORR/Desktop/CSCI 4020/SimpleRPGDiceRoller/app/src/main/res/menu/main_menu.xml" value="0.3265625" />
