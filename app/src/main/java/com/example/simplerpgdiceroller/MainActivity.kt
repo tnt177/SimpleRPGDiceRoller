@@ -399,12 +399,10 @@ class MainActivity : AppCompatActivity() {
 
 /*
 Developer Notes (4/16/22):
-* Need to add the code for d00, either 1d00 random # 1..100 or 2d10 random # 1..10
 * If time permitting, format the imageButton a bit better
 * Need to add decorations or theme, i.e. maybe dicey or dungeony ???
 * Need to create App Icon
 * Possibly add more basic instructions???
-* Finish menu for SharedPreferences, i.e. change background color, etc
 * Add an About app screen
 * If time permitting, see about cleaning up the code, i.e. moving stuff to functions
 * Others pending...
