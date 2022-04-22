@@ -44,8 +44,8 @@
     <string name="dice_logo">Dice Logo</string>
     <string name="title">Simple\nRPG Dice Roller</string>
     <string name="increase">To increase the number of dice to roll (xd) &#38; the modifier number,
-        tap the arrow up button (green).\n\nThe default number of dice is 1,
-        and the default modifier number is 0.></string>
+        tap the arrow up button (green).\n\nThe default number of dice is 1, and the default modifier
+        number is 0.></string>
     <string name="decrease">To decrease the number of dice to roll (xd) &#38; the modifier number,
     tap the arrow down button (red).\n\nTo reset the number of dice &#38;
         modifier number to the default: select \'Reset\' from the main menu.</string>
