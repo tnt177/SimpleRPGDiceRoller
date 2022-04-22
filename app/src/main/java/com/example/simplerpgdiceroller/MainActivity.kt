@@ -400,15 +400,13 @@ class MainActivity : AppCompatActivity() {
             startActivity(intent)
             return true
         } else if(item.itemId == R.id.jail) {
-            val title = "Are your dice behaving badly???"
+            val title = "Are your dice behaving badly??? You keep getting bad rolls???"
             val message = "Don't Fret!\n\n Just put them in Dice Jail for a bit!!!"
             val builder = AlertDialog.Builder(binding.root.context,
             R.style.Theme_Dialog_Alert
             )
 
-            val text = "<b><big><span style='color:red;'>You did not put any dice on Dice Jail!<br><br>" +
-                    "Remember, anytime they behave badly, " +
-                    "throw them in Dice Jail and it will straighten them back up!</b></big></span"
+            val text = "<b><big><span style='color:red;'>No worries, maybe next time!</b></big></span>"
 
             val listener = DialogInterface.OnClickListener { dialog, which ->
                 if (which == DialogInterface.BUTTON_POSITIVE) {
