@@ -10,7 +10,16 @@
         android:supportsRtl="true"
         android:theme="@style/Theme.SimpleRPGDiceRoller">
         <activity
+            android:name=".about"
+            android:label="About App"
+            android:exported="false" />
+        <activity
+            android:name=".instructions"
+            android:label="App Instructions"
+            android:exported="false" />
+        <activity
             android:name=".preferences"
+            android:label="App Preferences"
             android:exported="false" />
         <activity
             android:name=".MainActivity"

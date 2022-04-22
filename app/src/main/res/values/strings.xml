@@ -33,12 +33,30 @@
     <string name="background_color_lavender">lavender</string>
     <string name="background_color_forrest">forrest</string>
     <string name="background_color_sandy">sandy</string>
-    <string name="background_color">Background \nColor</string>
-    <string name="default_image_n_dragon_silloute">Default Image \n(Dragon Silloute)</string>
-    <string name="antique">Antique</string>
+    <string name="background_color">Background \nTheme</string>
+    <string name="default_image_n_dragon_silloute">Default Image \n(Dragon Silhouette)</string>
+    <string name="antique">Antique Parchment</string>
     <string name="forrest">Forrest</string>
     <string name="gold">Gold</string>
     <string name="lavender">Lavender</string>
     <string name="sandy">Sandy</string>
     <string name="silver">Silver</string>
+    <string name="dice_logo">Dice Logo</string>
+    <string name="title">Simple\nRPG Dice Roller</string>
+    <string name="increase"><![CDATA[To increase the number of dice to roll (xd) & the modifier number, tap the arrow up button (green).\n\nThe default number of dice is 1, and the default modifier number is 0.]]></string>
+    <string name="decrease"><![CDATA[To decrease the number of dice to roll (xd) & the modifier number, tap the arrow down button (red).\n\nTo reset the number of dice & modifier number to the default: select \'Reset\' from the main menu.]]></string>
+    <string name="min_max">Number of Dice: Min = 1; Max = ∞\nModifier Number: Min = ∞; Max = ∞</string>
+    <string name="plus">plus</string>
+    <string name="minus">minus</string>
+    <string name="instructions">Instructions</string>
+    <string name="reset">Reset</string>
+    <string name="preferences">Preferences</string>
+    <string name="about_app">About App</string>
+    <string name="tamara_torres">Tamara Torres</string>
+    <string name="version_1_0_0">Version 1.0.0</string>
+    <string name="developed_by">Developed by:</string>
+    <string name="source"><![CDATA[Image Source & Licensing information:]]></string>
+    <string name="openclipart">OpenCliPart (Open Source)</string>
+    <string name="https">https://openclipart.org/</string>
+    <string name="image_editing_by">Image Editing by:</string>
 </resources>

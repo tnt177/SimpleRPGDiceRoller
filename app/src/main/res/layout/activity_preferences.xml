@@ -4,6 +4,7 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
+    android:background="@drawable/antique"
     tools:context=".preferences">
 
     <TextView
@@ -35,43 +36,64 @@
             android:id="@+id/dragon_radioButton"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:text="@string/default_image_n_dragon_silloute" />
+            android:fontFamily="monospace"
+            android:text="@string/default_image_n_dragon_silloute"
+            android:textColor="#191970"
+            android:textStyle="bold" />
 
         <RadioButton
             android:id="@+id/antique_radioButton"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:text="@string/antique" />
+            android:fontFamily="monospace"
+            android:text="@string/antique"
+            android:textColor="#191970"
+            android:textStyle="bold" />
 
         <RadioButton
             android:id="@+id/forest_radioButton"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:text="@string/forrest" />
+            android:fontFamily="monospace"
+            android:text="@string/forrest"
+            android:textColor="#191970"
+            android:textStyle="bold" />
 
         <RadioButton
             android:id="@+id/gold_radioButton"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:text="@string/gold" />
+            android:fontFamily="monospace"
+            android:text="@string/gold"
+            android:textColor="#191970"
+            android:textStyle="bold" />
 
         <RadioButton
             android:id="@+id/lavender_radioButton"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:text="@string/lavender" />
+            android:fontFamily="monospace"
+            android:text="@string/lavender"
+            android:textColor="#191970"
+            android:textStyle="bold" />
 
         <RadioButton
             android:id="@+id/sandy_radioButton"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:text="@string/sandy" />
+            android:fontFamily="monospace"
+            android:text="@string/sandy"
+            android:textColor="#191970"
+            android:textStyle="bold" />
 
         <RadioButton
             android:id="@+id/silver_radioButton"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:text="@string/silver" />
+            android:fontFamily="monospace"
+            android:text="@string/silver"
+            android:textColor="#191970"
+            android:textStyle="bold" />
     </RadioGroup>
 
 </androidx.constraintlayout.widget.ConstraintLayout>

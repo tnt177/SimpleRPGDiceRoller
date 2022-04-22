@@ -355,7 +355,7 @@ class MainActivity : AppCompatActivity() {
         if (background.equals("dragon")) {
             binding.ConstraintLayout.setBackgroundResource(R.drawable.dragon)
         } else if (background.equals("antique")) {
-            binding.ConstraintLayout.setBackgroundColor(Color.parseColor("#FAEBD7"))
+            binding.ConstraintLayout.setBackgroundResource(R.drawable.antique)
         } else if (background.equals("forrest")) {
             binding.ConstraintLayout.setBackgroundColor(Color.parseColor("#6B8E23"))
         } else if (background.equals("gold")) {
@@ -389,6 +389,12 @@ class MainActivity : AppCompatActivity() {
             startActivity(intent)
             return true
         } else if (item.itemId == R.id.about) {
+            val intent = Intent(this, about::class.java)
+            startActivity(intent)
+            return true
+        } else if(item.itemId == R.id.instructions) {
+            val intent = Intent(this, instructions::class.java)
+            startActivity(intent)
             return true
         }
         return super.onOptionsItemSelected(item)
