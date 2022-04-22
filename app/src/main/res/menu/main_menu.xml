@@ -13,4 +13,7 @@
     <item
         android:id="@+id/about"
         android:title="@string/about_app" />
+    <item
+        android:id="@+id/jail"
+        android:title="@string/dice_jail" />
 </menu>

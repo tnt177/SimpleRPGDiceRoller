@@ -1,14 +1,17 @@
 package com.example.simplerpgdiceroller
 
 import android.content.Context
+import android.content.DialogInterface
 import android.content.Intent
 import android.graphics.Color
+import android.location.GnssAntennaInfo
 import android.os.Bundle
 import android.text.Html
 import android.util.Log
 import android.view.ActionMode
 import android.view.Menu
 import android.view.MenuItem
+import android.widget.RadioGroup
 import android.widget.Toast
 import androidx.appcompat.app.AlertDialog
 import androidx.appcompat.app.AppCompatActivity
@@ -396,11 +399,38 @@ class MainActivity : AppCompatActivity() {
             val intent = Intent(this, instructions::class.java)
             startActivity(intent)
             return true
-        }
+        } else if(item.itemId == R.id.jail) {
+            val title = "Are your dice behaving badly???"
+            val message = "Don't Fret!\n\n Just put them in Dice Jail for a bit!!!"
+            val builder = AlertDialog.Builder(binding.root.context,
+            R.style.Theme_Dialog_Alert
+            )
+
+            val text = "<b><big><span style='color:red;'>You did not put any dice on Dice Jail!<br><br>" +
+                    "Remember, anytime they behave badly, " +
+                    "throw them in Dice Jail and it will straighten them back up!</b></big></span"
+
+            val listener = DialogInterface.OnClickListener { dialog, which ->
+                if (which == DialogInterface.BUTTON_POSITIVE) {
+                    val intent = Intent(this, dice_jail::class.java)
+                    startActivity(intent)
+                } else if (which == DialogInterface.BUTTON_NEGATIVE) {
+                    Toast.makeText(
+                        applicationContext, (Html.fromHtml(text, Html.FROM_HTML_MODE_LEGACY)), Toast.LENGTH_LONG
+                    ).show()
+                }
+            }
+
+            builder
+                    .setTitle(title)
+                    .setMessage(message)
+                    .setPositiveButton("Yes!!", listener)
+                    .setNegativeButton("I Changed my mind", listener)
+                    .show()
+            }
         return super.onOptionsItemSelected(item)
     }
-
-}
+ }
 
 
 /*

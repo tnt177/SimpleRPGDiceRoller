@@ -59,8 +59,13 @@
     <string name="tamara_torres">Tamara Torres</string>
     <string name="version_1_0_0">Version 1.0.0</string>
     <string name="developed_by">Developed by:</string>
-    <string name="source"><![CDATA[Image Source & Licensing information:]]></string>
+    <string name="source">Image Source &#38; Licensing information</string>
     <string name="openclipart">OpenCliPart (Open Source)</string>
     <string name="https">https://openclipart.org/</string>
     <string name="image_editing_by">Image Editing by:</string>
+    <string name="dice_jail">Dice Jail</string>
+    <string name="dice">dice</string>
+    <string name="select_dice_to_put_in_jail">Select Dice to put in Jail</string>
+    <string name="Click">Click on the dice you want to put in Jail:</string>
+    <string name="you_selected">You selected: </string>
 </resources>
