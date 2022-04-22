@@ -15,11 +15,11 @@
             android:exported="false" />
         <activity
             android:name=".instructions"
-            android:label="App Instructions"
+            android:label="Instructions"
             android:exported="false" />
         <activity
             android:name=".preferences"
-            android:label="App Preferences"
+            android:label="Preferences"
             android:exported="false" />
         <activity
             android:name=".MainActivity"
