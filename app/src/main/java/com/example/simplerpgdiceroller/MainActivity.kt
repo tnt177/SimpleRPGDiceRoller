@@ -357,18 +357,32 @@ class MainActivity : AppCompatActivity() {
 
         if (background.equals("dragon")) {
             binding.ConstraintLayout.setBackgroundResource(R.drawable.dragon)
+            binding.diceNumTextView.setTextColor(Color.BLACK)
+            binding.modTextView.setTextColor(Color.BLACK)
         } else if (background.equals("antique")) {
             binding.ConstraintLayout.setBackgroundResource(R.drawable.antique)
+            binding.diceNumTextView.setTextColor(Color.RED)
+            binding.modTextView.setTextColor(Color.RED)
         } else if (background.equals("forrest")) {
             binding.ConstraintLayout.setBackgroundColor(Color.parseColor("#6B8E23"))
+            binding.diceNumTextView.setTextColor(Color.YELLOW)
+            binding.modTextView.setTextColor(Color.YELLOW)
         } else if (background.equals("gold")) {
             binding.ConstraintLayout.setBackgroundColor(Color.parseColor("#DAA520"))
+            binding.diceNumTextView.setTextColor(Color.parseColor("#008000"))
+            binding.modTextView.setTextColor(Color.parseColor("#008000"))
         } else if (background.equals("lavender")) {
             binding.ConstraintLayout.setBackgroundColor(Color.parseColor("#E6E6FA"))
+            binding.diceNumTextView.setTextColor(Color.MAGENTA)
+            binding.modTextView.setTextColor(Color.MAGENTA)
         } else if (background.equals("sandy")) {
             binding.ConstraintLayout.setBackgroundColor(Color.parseColor("#FFDAB9"))
+            binding.diceNumTextView.setTextColor(Color.BLUE)
+            binding.modTextView.setTextColor(Color.BLUE)
         } else if (background.equals("silver")) {
             binding.ConstraintLayout.setBackgroundColor(Color.parseColor("#D3D3D3"))
+            binding.diceNumTextView.setTextColor(Color.parseColor("#4B0082"))
+            binding.modTextView.setTextColor(Color.parseColor("#4B0082"))
         }
 
     }
@@ -400,8 +414,11 @@ class MainActivity : AppCompatActivity() {
             startActivity(intent)
             return true
         } else if(item.itemId == R.id.jail) {
-            val title = "Are your dice behaving badly??? You keep getting bad rolls???"
-            val message = "Don't Fret!\n\n Just put them in Dice Jail for a bit!!!"
+            val title = "<span style='color:#FF4500;'><big><big>GO TO JAIL!</big></big></span>"
+            val message = "<b><big>Are your dice behaving badly???</big></b><br><br>" +
+                    "<span style='color:#008000;'><big><b>You keep getting bad rolls???</b></big></span><br><br>" +
+                    "<b><span style='color:#008B8B;'><big><big>Don't Fret!</big></big></b></span><br><br>" +
+                    "<b><big><big><big>Just put them in <span style='color:red;'>Dice Jail </span>for a bit!!!</big></big></big></b>"
             val builder = AlertDialog.Builder(binding.root.context,
             R.style.Theme_Dialog_Alert
             )
@@ -420,8 +437,8 @@ class MainActivity : AppCompatActivity() {
             }
 
             builder
-                    .setTitle(title)
-                    .setMessage(message)
+                    .setTitle(Html.fromHtml(title, Html.FROM_HTML_MODE_LEGACY))
+                    .setMessage(Html.fromHtml(message, Html.FROM_HTML_MODE_LEGACY))
                     .setPositiveButton("Yes!!", listener)
                     .setNegativeButton("I Changed my mind", listener)
                     .show()

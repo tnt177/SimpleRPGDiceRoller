@@ -17,9 +17,13 @@ class dice_jail : AppCompatActivity() {
         binding = ActivityDiceJailBinding.inflate(layoutInflater)
         setContentView(binding.root)
 
+        binding.bailButton.setOnClickListener{
+            binding.diceImageView.setImageResource(R.drawable.paroled)
+        }
+
         binding.selectButton.setOnClickListener{
 
-            var choice = arrayOf("d4", "d6", "d8", "d10", "d12", "d20", "d100")
+            val choice = arrayOf("d4", "d6", "d8", "d10", "d12", "d20", "d100")
             val builder = AlertDialog.Builder(binding.root.context)
             val title = getString(R.string.Click)
 
@@ -27,8 +31,8 @@ class dice_jail : AppCompatActivity() {
                 .setSingleChoiceItems(choice, 8) { dialogInterface: DialogInterface,
                                                    position: Int ->
                     Toast.makeText(
-                        applicationContext, getString(R.string.you_selected) + " " + choice[position],
-                        Toast.LENGTH_LONG
+                        applicationContext, choice[position] + " " + getString(R.string.now_in_jail),
+                        Toast.LENGTH_SHORT
                     ).show()
 
                     if (choice[position] == "d4") {

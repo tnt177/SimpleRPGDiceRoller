@@ -44,13 +44,13 @@
     <string name="dice_logo">Dice Logo</string>
     <string name="title">Simple\nRPG Dice Roller</string>
     <string name="increase">To increase the number of dice to roll (xd) &#38; the modifier number,
-        tap the arrow up button (green).\n\nThe default number of dice is 1, &#38; the default modifier
-        number is 0.</string>
+        tap the arrow up button (green).</string>
     <string name="decrease">To decrease the number of dice to roll (xd) &#38; the modifier number,
-        tap the arrow down button (red).\n\nTo reset the number of dice &#38;
-        modifier number to the default: Select \'Reset\' from the main menu.</string>
-    <string name="min_max">If your dice are behaving badly, click \'Dice Jail\' from the menu.\n
-        \nNumber of Dice: Min = 1; Max = ∞\nModifier Number: Min = ∞; Max = ∞</string>
+        tap the arrow down button (red).</string>
+    <string name="min_max">The default number of dice is 1, &#38; the default modifier number is 0.\n
+        \nNumber of Dice: Min = 1; Max = ∞\nModifier Number: Min = ∞; Max = ∞\n
+        \nTo reset the number of dice &#38; modifier number to the default: Select \'Reset\' from the main menu.\n
+        \nIf your dice are behaving badly, click \'Dice Jail\' from the menu.</string>
     <string name="plus">plus</string>
     <string name="minus">minus</string>
     <string name="instructions">Instructions</string>
@@ -67,6 +67,7 @@
     <string name="dice_jail">Dice Jail</string>
     <string name="dice">dice</string>
     <string name="select_dice_to_put_in_jail">Jail Booking</string>
-    <string name="Click">Click on the dice you want to put in Jail:</string>
-    <string name="you_selected">You selected: </string>
+    <string name="Click">Which dice do you want to put in Dice Jail?</string>
+    <string name="now_in_jail">is now in Dice Jail!</string>
+    <string name="set_bail">Set Bail</string>
 </resources>
