@@ -60,9 +60,9 @@
     <string name="tamara_torres">Tamara Torres</string>
     <string name="version_1_0_0">Version 1.0.0</string>
     <string name="developed_by">Developed by:</string>
-    <string name="source">Image Source &#38; Licensing information</string>
+    <string name="source">Image Source &#38; Licensing Information:</string>
     <string name="openclipart">OpenCliPart (Open Source)</string>
-    <string name="https">https://openclipart.org/</string>
+    <string name="https"><a href="https://openclipart.org/">openclipart.org</a></string>
     <string name="image_editing_by">Image Editing by:</string>
     <string name="dice_jail">Dice Jail</string>
     <string name="dice">dice</string>

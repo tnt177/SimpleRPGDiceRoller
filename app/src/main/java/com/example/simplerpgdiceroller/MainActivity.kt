@@ -4,6 +4,7 @@ import android.content.Context
 import android.content.DialogInterface
 import android.content.Intent
 import android.graphics.Color
+import android.graphics.Typeface
 import android.location.GnssAntennaInfo
 import android.os.Bundle
 import android.text.Html
@@ -359,30 +360,44 @@ class MainActivity : AppCompatActivity() {
             binding.ConstraintLayout.setBackgroundResource(R.drawable.dragon)
             binding.diceNumTextView.setTextColor(Color.BLACK)
             binding.modTextView.setTextColor(Color.BLACK)
+            binding.diceNumTextView.setTypeface(Typeface.DEFAULT_BOLD)
+            binding.modTextView.setTypeface(Typeface.DEFAULT_BOLD)
         } else if (background.equals("antique")) {
             binding.ConstraintLayout.setBackgroundResource(R.drawable.antique)
             binding.diceNumTextView.setTextColor(Color.RED)
             binding.modTextView.setTextColor(Color.RED)
+            binding.diceNumTextView.setTypeface(Typeface.DEFAULT_BOLD)
+            binding.modTextView.setTypeface(Typeface.DEFAULT_BOLD)
         } else if (background.equals("forrest")) {
             binding.ConstraintLayout.setBackgroundColor(Color.parseColor("#6B8E23"))
             binding.diceNumTextView.setTextColor(Color.YELLOW)
             binding.modTextView.setTextColor(Color.YELLOW)
+            binding.diceNumTextView.setTypeface(Typeface.DEFAULT_BOLD)
+            binding.modTextView.setTypeface(Typeface.DEFAULT_BOLD)
         } else if (background.equals("gold")) {
             binding.ConstraintLayout.setBackgroundColor(Color.parseColor("#DAA520"))
             binding.diceNumTextView.setTextColor(Color.parseColor("#008000"))
             binding.modTextView.setTextColor(Color.parseColor("#008000"))
+            binding.diceNumTextView.setTypeface(Typeface.DEFAULT_BOLD)
+            binding.modTextView.setTypeface(Typeface.DEFAULT_BOLD)
         } else if (background.equals("lavender")) {
             binding.ConstraintLayout.setBackgroundColor(Color.parseColor("#E6E6FA"))
             binding.diceNumTextView.setTextColor(Color.MAGENTA)
             binding.modTextView.setTextColor(Color.MAGENTA)
+            binding.diceNumTextView.setTypeface(Typeface.DEFAULT_BOLD)
+            binding.modTextView.setTypeface(Typeface.DEFAULT_BOLD)
         } else if (background.equals("sandy")) {
             binding.ConstraintLayout.setBackgroundColor(Color.parseColor("#FFDAB9"))
             binding.diceNumTextView.setTextColor(Color.BLUE)
             binding.modTextView.setTextColor(Color.BLUE)
+            binding.diceNumTextView.setTypeface(Typeface.DEFAULT_BOLD)
+            binding.modTextView.setTypeface(Typeface.DEFAULT_BOLD)
         } else if (background.equals("silver")) {
             binding.ConstraintLayout.setBackgroundColor(Color.parseColor("#D3D3D3"))
             binding.diceNumTextView.setTextColor(Color.parseColor("#4B0082"))
             binding.modTextView.setTextColor(Color.parseColor("#4B0082"))
+            binding.diceNumTextView.setTypeface(Typeface.DEFAULT_BOLD)
+            binding.modTextView.setTypeface(Typeface.DEFAULT_BOLD)
         }
 
     }
@@ -446,12 +461,3 @@ class MainActivity : AppCompatActivity() {
         return super.onOptionsItemSelected(item)
     }
  }
-
-
-/*
-Developer Notes (4/16/22):
-* Need to add decorations or theme, i.e. maybe dicey or dungeony ???
-* If time permitting, see about cleaning up the code, i.e. moving stuff to functions
-* Others pending...
-
- */

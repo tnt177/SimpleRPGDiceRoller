@@ -122,12 +122,13 @@
         android:layout_height="wrap_content"
         android:fontFamily="sans-serif-condensed"
         android:text="@string/https"
-        android:textColor="#4169E1	"
+        android:textColor="#BF360C"
         android:textSize="20sp"
         android:textStyle="bold|italic"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/textView13" />
+        app:layout_constraintTop_toBottomOf="@+id/textView13"
+        tools:ignore="TextContrastCheck" />
 
     <TextView
         android:id="@+id/textView15"
