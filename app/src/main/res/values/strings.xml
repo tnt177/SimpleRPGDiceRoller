@@ -1,7 +1,7 @@
 <resources>
     <string name="app_name">Simple RPG Dice Roller</string>
-    <string name="number_of_dice">Number of Dice:</string>
-    <string name="modifier">Modifier +/-: </string>
+    <string name="number_of_dice">Number of Dice: %d</string>
+    <string name="modifier">Modifier +/-: %d</string>
     <string name="missing_die">You need to have at least one die to roll, add dice, and try again!"</string>
     <string name="down_selector">down selector</string>
     <string name="up_selector">up selector</string>
@@ -48,7 +48,7 @@
     <string name="decrease">To decrease the number of dice to roll (xd) &#38; the modifier number,
         tap the arrow down button (red).</string>
     <string name="min_max">The default number of dice is 1, &#38; the default modifier number is 0.\n
-        \nNumber of Dice: Min = 1; Max = ∞\nModifier Number: Min = ∞; Max = ∞\n
+        \nNumber of Dice: Min = 0; Max = ∞\nModifier Number: Min = ∞; Max = ∞\n
         \nTo reset the number of dice &#38; modifier number to the default: Select \'Reset\' from the main menu.\n
         \nIf your dice are behaving badly, click \'Dice Jail\' from the menu.</string>
     <string name="plus">plus</string>
@@ -59,7 +59,7 @@
     <string name="about_app">About App</string>
     <string name="tamara_torres">Tamara Torres</string>
     <string name="version_1_0_0">Version 1.0.0</string>
-    <string name="developed_by">Developed by:</string>
+    <string name="developed_by">Created &#38; Coded by:</string>
     <string name="source">Image Source &#38; Licensing Information:</string>
     <string name="openclipart">OpenCliPart (Open Source)</string>
     <string name="https"><a href="https://openclipart.org/">openclipart.org</a></string>
